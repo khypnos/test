@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Amandine Potier - Hémmato-pédiatre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation fixe (apparaît lors du scroll) -->
+    <nav id="navbar" class="navbar hidden">
+        <div class="nav-container">
+            <div class="nav-logo">Dr. Amandine Potier</div>
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#specialite">Spécialité</a></li>
+                <li><a href="#prestations">Prestations</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#rdv" class="btn-rdv">Prendre RDV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section avec image de fond -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <div class="doctor-info">
+                    <img src="doctor-photo.jpg" alt="Dr. Amandine Potier" class="doctor-photo">
+                    <div class="doctor-details">
+                        <h1>Dr. Amandine Potier</h1>
+                        <p class="diplome">Docteur en Médecine</p>
+                        <p class="rpps">RPPS: 10003123456</p>
+                        <p class="specialite-hero">Spécialiste en Pédiatrie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenu principal -->
+    <main class="main-content">
+        <!-- Section Spécialité -->
+        <section id="specialite" class="section">
+            <div class="container">
+                <h2>Spécialité</h2>
+                <div class="specialty-card">
+                    <h3>Pédiatrie</h3>
+                    <p>Soins médicaux dédiés aux enfants et adolescents, de la naissance à 18 ans. Une approche bienveillante et professionnelle pour accompagner la croissance et le développement de votre enfant.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Prestations -->
+        <section id="prestations" class="section bg-light">
+            <div class="container">
+                <h2>Nos Prestations</h2>
+                <div class="prestations-grid">
+                    <div class="prestation-card">
+                        <h3>Consultation spécialisée de pédiatrie générale</h3>
+                        <p>Suivi médical complet de votre enfant, examens de routine, dépistage et prévention.</p>
+                    </div>
+                    <div class="prestation-card clickable" onclick="window.location.href='dermopediatrie.html'">
+                        <h3>Consultation de dermopédiatrie</h3>
+                        <p>Prise en charge des affections cutanées chez l'enfant.</p>
+                        <span class="link-arrow">→ En savoir plus</span>
+                    </div>
+                    <div class="prestation-card clickable" onclick="window.location.href='hematologie.html'">
+                        <h3>Consultation d'hématologie</h3>
+                        <p>Diagnostic et traitement des maladies du sang.</p>
+                        <span class="link-arrow">→ En savoir plus</span>
+                    </div>
+                    <div class="prestation-card">
+                        <h3>Vaccination</h3>
+                        <p>Mise à jour du calendrier vaccinal selon les recommandations officielles.</p>
+                    </div>
+                    <div class="prestation-card">
+                        <h3>Examen du nouveau-né</h3>
+                        <p>Bilan de santé complet dans les premiers mois de vie.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Déroulement -->
+        <section id="deroulement" class="section">
+            <div class="container">
+                <h2>Le Déroulement des Consultations</h2>
+                <div class="consultation-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Accueil et anamnèse</h3>
+                            <p>Discussion avec les parents, recueil des antécédents médicaux (10 min)</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Examen clinique</h3>
+                            <p>Examen physique complet, mesures anthropométriques (15-20 min)</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Diagnostic et conseils</h3>
+                            <p>Établissement du diagnostic, prescription si nécessaire (10 min)</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Planification du suivi</h3>
+                            <p>Programmation du prochain rendez-vous, remise des documents (5 min)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Informations pratiques -->
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Informations Pratiques</h2>
+                <div class="info-grid">
+                    <!-- Adresse -->
+                    <div class="info-card">
+                        <h3>📍 Adresse du Cabinet</h3>
+                        <p><strong>Cabinet Médical Dr. Potier</strong><br>
+                        123 Avenue de la Santé<br>
+                        75000 Paris</p>
+                        <a href="https://maps.google.com" target="_blank" class="btn-maps">Voir sur Google Maps</a>
+                    </div>
+
+                    <!-- Horaires -->
+                    <div class="info-card">
+                        <h3>🕐 Horaires d'Ouverture</h3>
+                        <div class="horaires">
+                            <p><strong>Lundi à Vendredi</strong><br>
+                            8h00 - 12h00<br>
+                            14h00 - 18h00</p>
+                            <p><strong>Samedi</strong><br>
+                            8h00 - 12h00</p>
+                            <p><strong>Dimanche</strong><br>
+                            Fermé</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="info-card">
+                        <h3>📞 Contact</h3>
+                        <p><strong>Téléphone :</strong> 01 23 45 67 89<br>
+                        <strong>Email :</strong> contact@cabinet-potier.fr<br>
+                        <strong>Secrétariat :</strong><br>
+                        Du lundi au vendredi<br>
+                        8h-12h et 14h-17h</p>
+                    </div>
+
+                    <!-- Rendez-vous Doctolib -->
+                    <div class="info-card rdv-card">
+                        <h3>📅 Prendre Rendez-vous</h3>
+                        <p>Réservez votre consultation en ligne</p>
+                        <div id="rdv">
+                            <!-- Intégration Doctolib -->
+                            <iframe src="https://www.doctolib.fr/" width="100%" height="300" frameborder="0"></iframe>
+                        </div>
+                        <p class="rdv-phone">Ou appelez directement : <strong>01 23 45 67 89</strong></p>
+                    </div>
+                </div>
+
+                <!-- Diplômes -->
+                <div class="diplomes-section">
+                    <a href="diplomes.html" class="btn-diplomes">🎓 Voir les Diplômes et Formations</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="urgence-notice">
+                <p>🚨 <strong>En cas d'urgence médicale, composer le 15</strong></p>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2025 Dr. Baptiste potier - Cabinet Médical. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
